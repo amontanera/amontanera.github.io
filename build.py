@@ -92,7 +92,77 @@ APPS = {
                            "Live share: everyone follows the score on their own phone with a QR code"])],
      faq=[('Is Kumul a game?', "No, it's a score sheet. It replaces pen and paper around the table."),
           ('Does it need internet?', "No, Kumul works 100% offline, with no account and no ads.")])),
+ 'lumora': dict(
+   pkg='albanm.lumora', public=False, accent='#7c4dcc', shots=5, video=None, cat='MultimediaApplication',
+   privacy='https://raw.githubusercontent.com/amontanera/apps/main/lumora/privacy-policy.md',
+   fr=dict(
+     name='Lumora',
+     title='Lumora : podcasts, radios, musique et photos sur votre téléphone et votre Google TV',
+     desc="Appli Android gratuite : podcasts, des milliers de radios en direct, votre musique, vos photos et vos films, sur le téléphone ou envoyés vers la TV (Google TV, Chromecast). Sans compte, sans publicité.",
+     h1='Podcasts, radios, musique et photos. Sur le téléphone ou sur la TV.',
+     lede="Lumora réunit vos podcasts, les radios du monde entier, votre musique, vos photos et vos films dans une seule appli. Le téléphone sert de télécommande, la TV affiche.",
+     blocks=[
+       ('Podcasts', ["Catalogue par thème et par diffuseur, recherche, favoris",
+                     "Derniers épisodes de tous vos podcasts, reprise là où vous vous êtes arrêté",
+                     "Téléchargement automatique pour écouter hors ligne, vitesse, minuteur de sommeil"]),
+       ('Radios, musique, photos, films', ["Des milliers de radios en direct, filtre « sans pub »",
+                     "Votre musique, vos photos et vos films : sur le téléphone, dans un dossier cloud ou sur un partage réseau (SMB)",
+                     "Mode cadre photo plein écran"]),
+       ('Sur la TV', ["Appli Google TV, ou envoi vers un Chromecast",
+                     "Visuels d'ambiance animés : fractales, ambiances",
+                     "Le téléphone devient la télécommande, ou un écran lui-même"])],
+     faq=[('Lumora est-elle gratuite ?', "Oui, sans publicité et sans compte. Un achat unique débloque les options avancées."),
+          ('Mes données sont-elles envoyées quelque part ?', "Non. Aucune donnée collectée, aucun suivi. Tout reste sur vos appareils et votre réseau local.")]),
+   en=dict(
+     name='Lumora',
+     title='Lumora: podcasts, radio, music and photos on your phone and Google TV',
+     desc="Free Android app: podcasts, thousands of live radio stations, your music, photos and movies, on the phone or sent to the TV (Google TV, Chromecast). No account, no ads.",
+     h1='Podcasts, radio, music and photos. On your phone or on the TV.',
+     lede="Lumora brings your podcasts, radio from around the world, your music, photos and movies into one app. The phone is the remote, the TV is the screen.",
+     blocks=[
+       ('Podcasts', ["Catalog by topic and by publisher, search, favorites",
+                     "Latest episodes from all your podcasts, resume where you left off",
+                     "Auto-download for offline listening, playback speed, sleep timer"]),
+       ('Radio, music, photos, movies', ["Thousands of live stations, ad-free filter",
+                     "Your music, photos and movies: on the phone, in a cloud folder or on a network share (SMB)",
+                     "Full-screen photo frame mode"]),
+       ('On the TV', ["Google TV app, or cast to a Chromecast",
+                     "Animated ambient visuals: fractals, moods",
+                     "The phone becomes the remote, or a screen itself"])],
+     faq=[('Is Lumora free?', "Yes, no ads and no account. A one-time purchase unlocks advanced options."),
+          ('Is my data sent anywhere?', "No. No data collected, no tracking. Everything stays on your devices and local network.")])),
+ 'puzzle': dict(
+   pkg='io.github.amontanera.photopuzzle', public=False, accent='#5b4bd6', shots=3, video=None, cat='GameApplication',
+   privacy='https://raw.githubusercontent.com/amontanera/apps/main/privacy_policy.md',
+   fr=dict(
+     name='Photo Puzzle',
+     title='Photo Puzzle : vos photos et les chefs-d’œuvre des musées en puzzles, sur téléphone et TV',
+     desc="Jeu de puzzle Android : vos photos, des peintures du Met et de l'Art Institute de Chicago, et les plus belles photos de Wikimedia Commons, en grilles de 3×3 à 8×8. Sur téléphone et Google TV.",
+     h1='Vos photos et les chefs-d’œuvre des musées, en puzzles.',
+     lede="Photo Puzzle découpe une image en tuiles : échangez-les jusqu'à retrouver l'original. Vos propres photos, ou des œuvres du Met, de l'Art Institute de Chicago et de Wikimedia Commons, avec leur titre et leur auteur.",
+     blocks=[
+       ('Des images sans fin', ["Vos photos, choisies dans la galerie",
+                                "Peintures du Met et de l'Art Institute de Chicago",
+                                "Les plus belles photos de Wikimedia Commons, auteur et licence affichés"]),
+       ('Votre niveau', ["Grilles de 3×3 à 8×8", "Indice, quiz sur l'œuvre, musique classique en fond", "Statistiques et chronos"]),
+       ('À plusieurs, sur la TV', ["Appli Google TV", "Mode fête et relais : chacun son tour, chrono réglable"])],
+     faq=[('Photo Puzzle est-il gratuit ?', "Oui. Le Pro, en achat unique, débloque les grandes grilles et les photos d'un NAS."),
+          ('Mes photos sont-elles envoyées ?', "Non, elles restent sur votre appareil.")]),
+   en=dict(
+     name='Photo Puzzle',
+     title='Photo Puzzle: your photos and museum masterpieces as puzzles, on phone and TV',
+     desc="Android puzzle game: your photos, paintings from the Met and the Art Institute of Chicago, and the best photos of Wikimedia Commons, in 3×3 to 8×8 grids. On phone and Google TV.",
+     h1='Your photos and museum masterpieces, as puzzles.',
+     lede="Photo Puzzle cuts an image into tiles: swap them until the original is back. Your own photos, or works from the Met, the Art Institute of Chicago and Wikimedia Commons, with title and author.",
+     blocks=[
+       ('Endless images', ["Your photos, picked from the gallery", "Paintings from the Met and the Art Institute of Chicago",
+                           "The best photos of Wikimedia Commons, author and license shown"]),
+       ('Your level', ["Grids from 3×3 to 8×8", "Hints, artwork quiz, classical background music", "Stats and timers"]),
+       ('Together, on the TV', ["Google TV app", "Party and relay modes: take turns, adjustable timer"])],
+     faq=[('Is Photo Puzzle free?', "Yes. Pro, a one-time purchase, unlocks the big grids and photos from a NAS."),
+          ('Are my photos uploaded?', "No, they stay on your device.")])),
 }
+
 
 UI = {
  'fr': dict(lang='fr', other='en', other_label='English', play='Télécharger sur Google Play', soon='Bientôt sur Google Play',
@@ -136,7 +206,7 @@ def app_page(key, lang):
            else f'<span class="cta off">{u["soon"]}</span>')
     blocks = ''.join(f'<section class="feat"><h2>{E(h)}</h2><ul>' + ''.join(f'<li>{E(x)}</li>' for x in items) + '</ul></section>'
                      for h, items in t['blocks'])
-    shots = ''.join(f'<img src="/img/{key}/{lang}-{i}.webp" alt="{E(t["name"])} {i}" loading="lazy" width="270" height="480">'
+    shots = ''.join(f'<img src="/img/{key}/{lang}-{i}.webp" alt="{E(t["name"])} {i}" loading="lazy">'
                     for i in range(1, a['shots'] + 1))
     vid = ''
     if a.get('video'):
@@ -145,7 +215,7 @@ def app_page(key, lang):
                f'loading="lazy" allow="encrypted-media; picture-in-picture" allowfullscreen></iframe></div></section>')
     faq = ''.join(f'<details><summary>{E(q)}</summary><p>{E(r)}</p></details>' for q, r in t['faq'])
     ld = ('<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication",'
-          f'"name":"{t["name"]}","operatingSystem":"Android","applicationCategory":"{"UtilitiesApplication" if key=="sentinel" else "GameApplication"}",'
+          f'"name":"{t["name"]}","operatingSystem":"Android","applicationCategory":"{a.get("cat", "UtilitiesApplication" if key=="sentinel" else "GameApplication")}",'
           f'"offers":{{"@type":"Offer","price":"0","priceCurrency":"EUR"}},"author":{{"@type":"Person","name":"Alban Montanera"}}'
           + (f',"downloadUrl":"{PLAY}{a["pkg"]}"' if a['public'] else '') + '}</script>')
     body = f'''<section class="hero"><img src="/img/{key}/icon.png" alt="" width="72" height="72" class="icon">
