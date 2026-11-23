@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://amontanera.github.io/sitemap.xml
