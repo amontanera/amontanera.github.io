@@ -9,7 +9,7 @@ TODAY = datetime.date.today().isoformat()
 
 APPS = {
  'sentinel': dict(
-   pkg='albanm.dashcam', public=True, accent='#3b82c4', shots=8, video=None,
+   pkg='albanm.dashcam', public=True, accent='#3b82c4', shots=8, video={'fr': 'KjieY9UvwD4', 'en': '4-6GKQ-NBxI'},
    privacy='https://raw.githubusercontent.com/amontanera/apps/main/sentinel/privacy-policy.md',
    fr=dict(
      name='Sentinel Dashcam',

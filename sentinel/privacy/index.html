@@ -9,12 +9,13 @@
 </head><body>
 <header class="top"><a href="/en/" class="home">My Android apps</a><a href="/sentinel/" hreflang="fr">Français</a></header>
 <main><article class="doc"><h1>Sentinel — Privacy Policy</h1>
-<p><em>Last updated: 23 August 2026</em></p>
+<p><em>Last updated: 23 November 2026</em></p>
 <p>Sentinel is a dashcam and surveillance camera app. It is designed so that <strong>your recordings never leave your device unless you explicitly configure a destination you control</strong>. The developer operates no server and receives no data from the app.</p>
 <h2>Data the app processes</h2>
 <ul>
 <li><strong>Video and audio recordings</strong> — captured with the camera and (optionally) the microphone, stored only on your device or SD card. Old recordings are deleted automatically by the loop-recording storage manager.</li>
 <li><strong>Location</strong> — used, if you enable the overlay, to burn the current speed and position into your recordings; processed on the device only.</li>
+<li><strong>Bluetooth connection state</strong> — if you enable car auto-start, the app checks on the device whether a Bluetooth device you chose (e.g. your car) is connected, to start or stop recording. Nothing about your Bluetooth devices is sent anywhere, and this feature is optional.</li>
 <li><strong>Motion and sensor data</strong> — accelerometer and in-frame motion are analysed on the device to detect impacts and events.</li>
 </ul>
 <h2>What is never done</h2>
@@ -29,8 +30,10 @@
 <li><strong>Push notifications (ntfy)</strong> — if you configure them, short event messages (e.g. "impact detected") are sent to the ntfy server and topic you set (public ntfy.sh or self-hosted). No video is sent.</li>
 <li><strong>Remote access</strong> — if you enable it, the app runs a small server on your device so that <em>your own</em> devices can view recordings. Every request requires a secret token; nothing is exposed by the developer.</li>
 </ul>
+<h2>Purchases</h2>
+<p>The optional Sentinel Pro unlock is processed entirely by Google Play Billing; the app only stores the resulting yes/no entitlement locally.</p>
 <h2>Permissions</h2>
-<p>Camera and microphone are used solely to record your clips. Location feeds the optional speed/GPS overlay. Notifications inform you of recording state and events. Network access exists only for the optional features above.</p>
+<p>Camera and microphone are used solely to record your clips. Location feeds the optional speed/GPS overlay. Bluetooth (nearby devices) is used only for the optional car auto-start. Notifications inform you of recording state and events, and a display-over-other-apps / boot permission lets recording start and resume reliably. Network access exists only for the optional features above.</p>
 <h2>Data retention and deletion</h2>
 <p>All recordings are under your control: they live in the app's own folder on your device/SD card, are pruned automatically by the loop recorder, and are removed when you delete them or uninstall the app.</p>
 <h2>Your responsibility</h2>
