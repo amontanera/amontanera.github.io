@@ -93,7 +93,7 @@ APPS = {
      faq=[('Is Kumul a game?', "No, it's a score sheet. It replaces pen and paper around the table."),
           ('Does it need internet?', "No, Kumul works 100% offline, with no account and no ads.")])),
  'lumora': dict(
-   pkg='albanm.lumora', public=False, accent='#7c4dcc', shots=5, video=None, cat='MultimediaApplication',
+   pkg='albanm.lumora', public=True, accent='#7c4dcc', shots=5, video=None, cat='MultimediaApplication',
    privacy='https://raw.githubusercontent.com/amontanera/apps/main/lumora/privacy-policy.md',
    fr=dict(
      name='Lumora',
