@@ -143,7 +143,8 @@ APPS = {
      blocks=[
        ('Des images sans fin', ["Vos photos, choisies dans la galerie",
                                 "Peintures du Met et de l'Art Institute de Chicago",
-                                "Les plus belles photos de Wikimedia Commons, auteur et licence affichés"]),
+                                "Les plus belles photos de Wikimedia Commons, auteur et licence affichés",
+                                "Toujours de nouvelles images : celles déjà jouées sont mémorisées et ne reviennent pas en boucle"]),
        ('Votre niveau', ["Grilles de 3×3 à 8×8", "Indice, quiz sur l'œuvre, musique classique en fond", "Statistiques et chronos"]),
        ('À plusieurs, sur la TV', ["Appli Google TV", "Mode fête et relais : chacun son tour, chrono réglable"])],
      faq=[('Photo Puzzle est-il gratuit ?', "Oui. Le Pro, en achat unique, débloque les grandes grilles et les photos d'un NAS."),
@@ -156,7 +157,8 @@ APPS = {
      lede="Photo Puzzle cuts an image into tiles: swap them until the original is back. Your own photos, or works from the Met, the Art Institute of Chicago and Wikimedia Commons, with title and author.",
      blocks=[
        ('Endless images', ["Your photos, picked from the gallery", "Paintings from the Met and the Art Institute of Chicago",
-                           "The best photos of Wikimedia Commons, author and license shown"]),
+                           "The best photos of Wikimedia Commons, author and license shown",
+                           "Always fresh images: the ones you already played are remembered and don't keep coming back"]),
        ('Your level', ["Grids from 3×3 to 8×8", "Hints, artwork quiz, classical background music", "Stats and timers"]),
        ('Together, on the TV', ["Google TV app", "Party and relay modes: take turns, adjustable timer"])],
      faq=[('Is Photo Puzzle free?', "Yes. Pro, a one-time purchase, unlocks the big grids and photos from a NAS."),
