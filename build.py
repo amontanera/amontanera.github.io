@@ -62,7 +62,7 @@ APPS = {
           ('Will an old phone work?', "Yes, Sentinel runs on Android 8 and later. An old phone on a charger makes a great security camera."),
           ('Is a dash cam legal?', "Rules vary by country, especially for audio and sharing footage. Check your local law.")])),
  'kumul': dict(
-   pkg='albanm.ardoise', public=False, accent='#4a5d9a', shots=6, video={'fr': 'Qshrpmltm9o', 'en': 'Yg2bEy2jcpQ'},
+   pkg='albanm.ardoise', public=True, accent='#4a5d9a', shots=6, video={'fr': 'Qshrpmltm9o', 'en': 'Yg2bEy2jcpQ'},
    privacy='https://raw.githubusercontent.com/amontanera/apps/main/kumul/privacy-policy.md',
    fr=dict(
      name='Kumul',
