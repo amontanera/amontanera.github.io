@@ -170,13 +170,13 @@ UI = {
  'fr': dict(lang='fr', other='en', other_label='English', play='Télécharger sur Google Play', soon='Bientôt sur Google Play',
             faq='Questions fréquentes', video='La vidéo', shots='Captures', privacy='Confidentialité', apps='Mes applis Android',
             home_title="Applis Android d'Alban Montanera", home_h1='Des applis Android simples, sans pub et sans compte',
-            home_lede="Je suis Alban, développeur indépendant. Je fais des applis qui marchent hors ligne, ne collectent rien et ne demandent pas d'abonnement.",
-            by="Développée par Alban Montanera, développeur indépendant.", contact='Contact'),
+            home_lede="Je suis Alban. Je fais des applis qui marchent hors ligne, ne collectent rien et ne demandent pas d'abonnement.",
+            by="Développée par Alban Montanera.", contact='Contact'),
  'en': dict(lang='en', other='fr', other_label='Français', play='Get it on Google Play', soon='Coming soon to Google Play',
             faq='FAQ', video='Video', shots='Screenshots', privacy='Privacy', apps='My Android apps',
             home_title='Android apps by Alban Montanera', home_h1='Simple Android apps, no ads, no account',
-            home_lede="I'm Alban, an indie developer. I build apps that work offline, collect nothing and need no subscription.",
-            by='Made by Alban Montanera, indie developer.', contact='Contact'),
+            home_lede="I'm Alban. I build apps that work offline, collect nothing and need no subscription.",
+            by='Made by Alban Montanera.', contact='Contact'),
 }
 E = html.escape
 
